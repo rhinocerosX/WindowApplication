@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#fff">
+        <Button
+            android:id="@+id/retButton"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ret1"
+            android:layout_marginTop="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:textSize="18dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:text="用户注册"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手机号:"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:background="#fff"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_weight="0"
+            android:hint="请输入手机号码"/>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="立即注册"
+            android:layout_marginTop="20dp"
+            android:background="#2A93D5"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册账号即表示您同意并愿意遵守 用户协议 和 隐私政策"
+            android:autoLink="all"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
